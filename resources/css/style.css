@@ -19,7 +19,7 @@ header {
 }
 
   /* Navigation */
-nav {
+.header-nav {
   padding-right: 40px;
 }
 
@@ -80,6 +80,15 @@ nav span {
   color: black;
 }
 
+.text-content h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
   /* Image Content */
 .image-content {
   display: flex;
@@ -88,11 +97,15 @@ nav span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  align-items: center;
+  text-align: center;
 }
 
 .main-image.image-content {
   background-image: url("../images/img-story-main.png");
   font-size: 40px;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .fall-image.image-content {
